@@ -1,0 +1,52 @@
+.ref-input {
+    background-color: rgb(34, 37, 41);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0.4em;
+    transition-duration: 0.5s;
+}
+
+textarea.ref-input {
+    padding: 1.5em 1.5em;
+    min-height: 20em;
+    white-space: normal;
+    font-weight: 500;
+    color: rgb(175, 179, 185);
+    outline: none;
+    border-radius: 0.7em;
+}
+
+.message-list .list-header {
+    margin: 0;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    padding: 1em 1.2em;
+    background-color: rgb(45, 47, 51);
+    border-bottom: 0.2em solid rgb(226, 226, 226);
+    color: #fff;
+}
+
+.message-list .list-element {
+    margin: 0;
+    padding: 0.9em 1.2em;
+    background-color: rgb(63, 65, 70);
+    border-bottom: 0.2em solid rgb(175, 175, 175);
+    transition-duration: 0.5s;
+    color: rgb(230, 230, 230);
+    display: block;
+}
+
+.message-list .list-element:last-of-type {
+    border-bottom: none;
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+}
+
+.message-list .list-element:hover {
+    background-color: rgb(55, 57, 61);
+    color: rgb(255, 255, 255);
+}

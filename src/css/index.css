@@ -1,0 +1,40 @@
+.wave {
+    margin-top: -3px;
+}
+
+.bubble {
+    background: rgba(255, 255, 255, 0.137);
+    border: 0.4em solid rgba(255, 255, 255, 0.082);
+    width: 10em;
+    height: 10em;
+    border-radius: 0.7em;
+    overflow: hidden;
+    position: absolute;
+}
+
+.bubble-1 {
+    top: -2em;
+    left: -3em;
+    animation: morph 5s normal 0s infinite ease;
+}
+
+.bubble-2 {
+    bottom: 3.5em;
+    right: -8em;
+    animation: morph 7s normal -5s infinite ease;
+}
+
+
+@keyframes morph {
+
+    0%,
+    100% {
+        border-radius: 8em;
+        transform: rotate(0deg) scale(0.8);
+    }
+
+    50% {
+        border-radius: 1.5em;
+        transform: rotate(60deg) scale(1.6);
+    }
+}

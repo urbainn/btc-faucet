@@ -1,0 +1,42 @@
+.faucet-counter {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    border-radius: 0.4em;
+    padding: 0.5em 1.5em;
+}
+
+.faucet-counter.ready {
+    color: rgb(133, 250, 178);
+}
+
+.faucet-counter.claimed {
+    color: rgb(251, 156, 78);
+}
+
+.claim-message {
+    color: rgb(31, 26, 18);
+    background-color: rgb(255, 212, 121);
+    border-radius: 0.5em;
+    border: 0.4em solid rgb(255, 192, 55);
+    margin: 1.5em 1em 0 1em;
+    padding: 0.5em 1em;
+}
+
+.claim-message SPAN.claim-amount {
+    font-weight: 900;
+    color: rgb(211, 121, 37);
+}
+
+.claim-message SPAN.xp-amount {
+    font-weight: 900;
+    color: rgb(31, 116, 173);
+}
+
+.error-claim-message {
+    color: rgb(255, 255, 255);
+    background-color: rgb(211, 75, 75);
+    border-radius: 0.5em;
+    border: 0.4em solid rgb(168, 50, 50);
+    margin: 1.5em 0 0 0;
+    padding: 0.5em 1em;
+}

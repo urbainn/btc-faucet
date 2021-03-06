@@ -1,0 +1,395 @@
+/* Main CSS file for [FAUCET NAME] faucet (made by UBrain) -- 2021 */
+
+/* Universal Selector */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+.t,
+.text {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.t-white {
+    color: #fff;
+}
+
+.t-grey {
+    color: rgb(161, 161, 161);
+}
+
+.t-blue {
+    color: rgb(57, 149, 235);
+}
+
+.t-dark {
+    color: rgb(22, 22, 22);
+}
+
+.t-orange {
+    color: rgb(204, 106, 26);
+}
+
+.large-title {
+    font-size: 3.4em;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h4,
+h5 {
+    font-weight: 400;
+}
+
+a,
+a:visited {
+    text-decoration: inherit !important;
+}
+
+.no-break {
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+/* Display */
+.display-none {
+    display: none;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex.center {
+    justify-content: center;
+}
+
+.flex.btw {
+    justify-content: space-between;
+}
+
+.flex.end {
+    justify-content: flex-end;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.gap-1em {
+    gap: 1em;
+}
+
+.flex.gap-2em {
+    gap: 2em;
+}
+
+.flex.gap-04em {
+    gap: 0.4em;
+}
+
+.flex.gap-06em {
+    gap: 0.6em;
+}
+
+.flex.page-center {
+    min-height: 100vh;
+    width: 100%;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Display Boxes */
+.display-box {
+    border-radius: 0.6em;
+    padding: 1.5em;
+    margin: 0.4em;
+}
+
+/* Buttons */
+.button {
+    background-color: #fff;
+    color: rgb(22, 22, 22);
+    border-radius: 0.5em;
+    padding: 0.5em 1.4em;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(219, 218, 218);
+}
+
+.button.blue {
+    background-color: rgb(64, 103, 211);
+    color: #fff;
+}
+
+.button.blue:hover {
+    background-color: rgb(53, 89, 190);
+}
+
+
+/* Colors */
+.bg-black {
+    background-color: #1a1a1a;
+}
+
+.bg-dark {
+    background-color: #1c1c1c;
+}
+
+.bg-lightdark {
+    background-color: #303030;
+}
+
+.bg-white {
+    background-color: #fdfdfd;
+}
+
+.gradient-purple {
+    background-color: linear-gradient(to right, #c358ed, #7f47ad);
+}
+
+.color-white {
+    color: #fff;
+}
+
+/* Header */
+.header {
+    padding: 0.9em 1em;
+    position: relative;
+    z-index: 2;
+}
+
+/* Margins */
+.ml-1em {
+    margin-left: 1em;
+}
+
+.mr-1em {
+    margin-right: 1em;
+}
+
+.mr-05em {
+    margin-right: 0.5em;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    color: #dadada;
+    background-color: #2d2d2d;
+    background-clip: padding-box;
+    border: 0.03em solid rgb(0, 0, 0, 0.2);
+    border-radius: .25rem;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-divider {
+    border-top: 0.17em solid #858585;
+}
+
+.dropdown-item {
+    color: rgb(224, 224, 224);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.22);
+    color: #fff;
+}
+
+/* Other Components */
+.color-container {
+    padding: 2.8em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustr-box {
+    border-radius: 0.6em;
+    padding: 1.6em 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1.1em;
+    margin: 0.5em 0;
+}
+
+.illustr-box .illustr {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8em;
+    color: rgb(200, 200, 200);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.2em;
+    min-height: 2.2em;
+}
+
+/* Balance */
+.balance-display {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+    padding: 0.3em 0.7em;
+    font-family: monospace, sans-serif;
+    color: rgb(255, 155, 61);
+    font-weight: 700;
+    margin: 0 0.6em 0 0;
+}
+
+/* Overflow */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Sizes */
+.w-100-p,
+.w-100p {
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #252525;
+    margin: 2em 0 0 0;
+    padding: 1em;
+}
+
+.footer .small-flag {
+    width: 1.5em;
+    margin: 0 0.5em 0 0.5em;
+}
+
+/* Positions */
+.relative {
+    position: relative;
+}
+
+.global-container {
+    min-height: 100vh;
+}
+
+/* Ads */
+iframe {
+    overflow: hidden;
+    margin: 0;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Adblock blocker */
+.user-interaction-container {
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 2em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#userInteraction {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 9999;
+}
+
+.user-interaction {
+    padding: 1.3em;
+    border-radius: 0.6em;
+    background-color: #fff;
+}
+
+/* Animations */
+.fade-in {
+    animation: fade-in 0.8s normal 0s 1 ease-in;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+    .d-lg-none {
+        display: none;
+    }
+
+    .lg-center {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    .d-lg-n {
+        display: none;
+    }
+
+    .responsive-container {
+        margin: 2em 13em 2em 13em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .d-sm-n {
+        display: none;
+    }
+
+    .responsive-container {
+        padding: inherit 0 inherit 0;
+    }
+
+    .mobile-wrap {
+        flex-wrap: wrap !important;
+    }
+
+    .mobile-no-gap {
+        gap: 0 !important;
+    }
+}

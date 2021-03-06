@@ -1,0 +1,6 @@
+input[type="text"] {
+    padding: 0.7em 1.2em;
+    border-radius: 0.4em;
+    width: 100%;
+    border: 0.2em solid rgb(59, 59, 59);
+}

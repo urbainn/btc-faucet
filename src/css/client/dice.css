@@ -1,0 +1,156 @@
+.dice-line {
+    width: 100%;
+    border-radius: 5em;
+    overflow: hidden;
+    height: 1.8em;
+    border: 0.4em solid rgba(0, 0, 0, 0.4);
+    margin-top: 1.8em;
+    position: relative;
+}
+
+.dice-line-part {
+    width: 50%;
+    height: 1em;
+    margin: 0;
+}
+
+.dice-line-position {
+    border-radius: 0.23em;
+    background-color: #fff;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+}
+
+.dice-button {
+    background-color: rgb(37, 39, 41);
+    border-radius: 0.3em;
+    padding: 0.4em 0.7em;
+    color: rgb(204, 204, 204);
+    font-weight: 700;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.dice-button.active {
+    color: rgb(37, 39, 41);
+    background-color: rgb(204, 204, 204);
+}
+
+.dice-button:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+.dice-button.active:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.dice-input {
+    background-color: rgb(37, 39, 41);
+    border: none;
+    border-radius: 0.3em;
+    color: #fff;
+    padding: 0.4em 0.7em;
+    outline: none;
+}
+
+.button-group {
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+
+.button-groupped {
+    border-radius: 0;
+    outline: rgb(65, 65, 65) solid 0.12em;
+}
+
+.green-option.active,
+.green-option.active:hover {
+    color: #fff;
+    background-color: rgb(66, 199, 110);
+}
+
+.red-option.active,
+.red-option.active:hover {
+    color: #fff;
+    background-color: rgb(221, 87, 77);
+}
+
+.dice-button.button-gold-gradient {
+    background-image: linear-gradient(to left, rgb(240, 174, 51), rgb(255, 145, 55));
+    padding: 0.5em 1.9em;
+    color: #fff;
+}
+
+.dice-button.button-red {
+    background-color: rgb(221, 87, 77);
+    color: #fff;
+    padding: 0.5em 1.9em;
+
+}
+
+.dice-button.button-gold-gradient:hover {
+    transform: scale(1.05);
+}
+
+.roll-message {
+    border-radius: 0.5em;
+    padding: 1em 1.7em;
+}
+
+.roll-message.win {
+    border: 0.3em solid rgb(59, 180, 116);
+    background-color: rgb(68, 206, 132);
+    color: #fff;
+}
+
+.dice-subcontainer {
+    background-color: rgb(42 47 51);
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+    padding: 0.9em 1.5em;
+    margin: 0 0.4em;
+    display: none;
+}
+
+.dice-container.no-bottom-radius {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+SPAN.greenResult {
+    color: rgb(59, 180, 116);
+}
+
+SPAN.redResult {
+    color: rgb(239, 89, 70);
+}
+
+.auto-button {
+    font-weight: 500;
+    padding: 0.5em 1.1em;
+    background-color: #2c3033;
+    color: #62676b;
+}
+
+.auto-button:hover {
+    background-color: #25282a;
+}
+
+.auto-dice-container {
+    background-color: #2e3235;
+    border-radius: 0.6em;
+    padding: 1em 1.5em;
+}
+
+.auto-dice-container hr {
+    margin: 0.2em 0;
+    border-top: 0.3em solid rgb(144, 144, 144);
+    width: 30%;
+}
+
+.diceRollCheckbox {
+    width: 2em;
+    height: 0.9em;
+}

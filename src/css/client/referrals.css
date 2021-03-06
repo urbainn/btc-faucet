@@ -1,0 +1,37 @@
+.referral-message {
+    border: 0.4em solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.7em;
+    padding: 1.1em 0.9em 1.7em 0.9em;
+}
+
+.ref-input {
+    background-color: rgb(34, 37, 41);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0.4em;
+    transition-duration: 0.5s;
+}
+
+textarea.ref-input {
+    padding: 1.5em 1.5em;
+    min-height: 20em;
+    white-space: normal;
+    font-weight: 500;
+    color: rgb(175, 179, 185);
+    outline: none;
+    border-radius: 0.7em;
+}
+
+.copied {
+    background-color: rgb(66, 101, 214);
+}
+
+.promo-image {
+    border-radius: 0.6em;
+    border: 0.4em solid rgb(49, 53, 58);
+    background-color: rgb(34, 37, 41);
+}

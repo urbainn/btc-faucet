@@ -1,0 +1,41 @@
+.topic-name {
+    background-color: rgb(82, 82, 82);
+    padding: 0.7em 1.3em;
+    margin: 0 0 1.9em 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.message-display {
+    padding: 0 1em 2em 1.9em;
+}
+
+.message-display .message-name {
+    font-weight: 700;
+    color: rgb(42, 42, 42);
+    margin: 0 0 0.2em 0;
+}
+
+.message-display .message-content {
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin: 0 0 0.2em 0;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.4em;
+    padding: 0.7em 1.1em;
+    max-width: 70%;
+    overflow: hidden;
+}
+
+.message-display textarea.message-content {
+    outline: none;
+    border: none;
+    width: 40%;
+    min-height: 6em;
+}
+
+@media only screen and (max-width: 768px) {
+    .message-display .message-content {
+        max-width: 100%;
+    }
+}
