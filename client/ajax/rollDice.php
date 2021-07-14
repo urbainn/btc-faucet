@@ -9,6 +9,9 @@
     $betColor = intval(htmlspecialchars($_POST['betColor']));
     $randomOutput = intval(rand(2,98));
 
+    // 2021 patch: negative bet amount exploit patched
+    if($betAmount < 1) die("NEGATIVE-BET-AMOUNT");
+
     $wonAmount = 0; // If negative, user lost (in satoshis)
     if($betColor == 0) {
         if($randomOutput < 50) $wonAmount = $betAmount;
