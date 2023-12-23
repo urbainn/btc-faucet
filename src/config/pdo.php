@@ -4,9 +4,9 @@ ini_set("display_errors", 0);
 ini_set("track_errors", 0);
 
 /* Connexion à une base MySQL avec l'invocation de pilote */
-$dsn = '';
-$user = '';
-$password = '';
+$dsn = 'mysql:host=localhost;dbname=your_database_name';
+$user = 'yourusername';
+$password = 'yourpassword';
 
 try {
     $pdo = new PDO($dsn, $user, $password);
